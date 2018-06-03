@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.sweetdream.DestroyedActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="289dip"
+        android:layout_height="288dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="56dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fox" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="340dip"
+        android:layout_height="64dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="32dip"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="false"
+        android:text="房屋建造失败！请在未来按时休息与起床！"
+        android:textColor="#666666"
+        android:textSize="18dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/iknow"
+        android:layout_width="233dip"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dip"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/shape_btn_green"
+        android:onClick="onClickHandler"
+        android:text="我知道了"
+        android:textColor="@color/bg_white"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>

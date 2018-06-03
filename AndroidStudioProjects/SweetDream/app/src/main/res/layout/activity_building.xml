@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sweetdream.BuildingActivity">
+
+    <scut.carson_ho.kawaii_loadingview.Kawaii_LoadingView
+
+        android:id="@+id/Kawaii_LoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#FFCCFF"
+        app:blockColor="#ffffff"
+
+        app:lineNumber="3"
+        app:fixBlock_Angle="5"
+        app:moveBlock_Angle="20"
+
+        app:blockInterval="8dip"
+        app:half_BlockWidth="15dip"
+        app:initPosition="0"
+
+        app:isClock_Wise="false"
+        app:moveSpeed="500"
+        app:move_Interpolator="@android:anim/bounce_interpolator"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dip"
+        android:layout_height="49dip"
+        android:layout_marginBottom="188dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginStart="8dip"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="正在建造房屋"
+        android:textColor="#FFFFFF"
+        android:textSize="30dip"
+        app:layout_constraintBottom_toBottomOf="@+id/Kawaii_LoadingView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/wakeup"
+        android:layout_width="132dip"
+        android:layout_height="60dip"
+        android:layout_marginBottom="92dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginStart="8dip"
+        android:background="@drawable/shape_btn_green"
+        android:onClick="onClickHandler"
+        android:text="起   床"
+        android:textSize="17dip"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    tools:context="com.example.sweetdream.IntroActivity">
+
+    <com.example.sweetdream.DotAlternatelyView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="113dip"
+        android:layout_marginEnd="169dip"
+        android:layout_marginStart="169dip"
+        android:layout_marginTop="378dip"
+        app:dot_dark_color="#f5b9d4"
+        app:dot_light_color="#aadfcc"
+        app:dot_move_rate="1.2"
+        app:dot_radius="10dip"
+        app:dot_spacing="6dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sweetdream.PictureFragment">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dip"
+        android:textSize="20dip"
+        android:textColor="@color/font_deep_gray" />
+
+    <recycler.coverflow.RecyclerCoverFlow
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </recycler.coverflow.RecyclerCoverFlow>
+
+
+</FrameLayout>
