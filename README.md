@@ -1,2 +1,2 @@
 # SweetDream
-Android apps dedicated to improving sleep.
+An android app dedicated to improving sleep.
